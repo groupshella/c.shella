@@ -1,0 +1,44 @@
+name: shella
+description: Arabic Services Marketplace - RTL Flutter App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+  dependencies:
+    flutter:
+        sdk: flutter
+          flutter_localizations:
+              sdk: flutter
+
+                # State Management - Riverpod
+                  flutter_riverpod: ^2.4.9
+
+                    # Navigation - go_router
+                      go_router: ^13.0.1
+
+                        # Arabic Fonts
+                          google_fonts: ^6.2.1
+
+                            # OTP Input
+                              pinput: ^3.0.1
+
+                                # Banner Carousel Indicator
+                                  smooth_page_indicator: ^1.1.0
+
+                                    # Icons
+                                      cupertino_icons: ^1.0.6
+
+                                      dev_dependencies:
+                                        flutter_test:
+                                            sdk: flutter
+                                              flutter_lints: ^3.0.0
+
+                                              flutter:
+                                                uses-material-design: true
+                                                  generate: true
+
+                                                    assets:
+                                                        - assets/images/
+                                                            - assets/icons/
