@@ -30,6 +30,10 @@ environment:
                                     # Icons
                                       cupertino_icons: ^1.0.6
 
+                                        # Onboarding - first run check
+                                          shared_preferences: ^2.2.2
+                                          
+
                                       dev_dependencies:
                                         flutter_test:
                                             sdk: flutter
